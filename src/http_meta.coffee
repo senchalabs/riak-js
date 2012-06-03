@@ -125,7 +125,6 @@ Meta.defaults =
   port: 8098
   accept: 'multipart/mixed, application/json;q=0.7, */*;q=0.5'
   responseEncoding: 'utf8'
-  connection: 'close' # should be keep-alive, but getting a lot of weird errors in tests
 
 Meta.queryProperties = [
   'r'
